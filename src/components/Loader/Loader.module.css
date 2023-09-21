@@ -1,0 +1,16 @@
+.loader{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border:8px solid deepskyblue;
+    border-radius: 50%;
+    opacity: .6;
+    border-left-color: blue;
+    animation: loader 2000ms linear infinite;
+
+}
+@keyframes loader{
+    100%{
+        transform:rotate(360deg);
+    }
+}

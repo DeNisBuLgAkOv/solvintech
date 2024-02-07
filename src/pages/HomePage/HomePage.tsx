@@ -32,6 +32,7 @@ const HomePage = () => {
   return (
     <>
       <div>Первый коммит</div>
+      <div>Второй коммит</div>
       {loader && <Loader/>}
       <div className={cls.container}>
         {cards.slice(0, displayedItems).map(el => <Card onClick={() => navigate(`/card/${el._id}/`)} key={el._id}

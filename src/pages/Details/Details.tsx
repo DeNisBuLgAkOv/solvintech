@@ -35,9 +35,9 @@ const Details = () => {
 
   return (
     <div className={cls.block}>
-      <div>Первый</div>
-      <div>Второй</div>
-      <div>Третий</div>
+      <p>Первыйwsdsa</p>
+      <p>Второй</p>
+      <span>Третий</span>
       {loader && <Loader/>}
       {currentCard && <Info currentCard={currentCard}/>}
     </div>

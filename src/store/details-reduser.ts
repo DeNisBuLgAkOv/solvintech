@@ -37,7 +37,7 @@ export const detailsReducer = (state: initialStateType = initialState, action: A
   }
 }
 
-
+//action
 ///action
 export const setCurrentCards = (card: CardType[]) => ({type: SET_CURRENT_CARDS, payload: card} as const)
 export const clearCards = () => ({type: CLEAR_CARD,} as const)

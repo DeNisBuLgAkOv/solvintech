@@ -29,7 +29,7 @@ const initialState: initialStateType = {
   loader: false,
 }
 
-
+const all =''
 export const cardsReducer = (state: initialStateType = initialState, action: ActionsType) => {
   switch (action.type) {
     case "SET_CARDS": {
